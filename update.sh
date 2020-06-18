@@ -16,3 +16,6 @@ git push gitee master
 
 coscmd upload config.js config.js
 coscmd upload config.json config.json
+
+filemgr --action upload --bucket http19 --key config.js --file config.js
+filemgr --action upload --bucket http19 --key config.json --file config.json
