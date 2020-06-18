@@ -10,12 +10,16 @@ cd $(dirname $0)
 git add .
 git commit -m "update $(date +'%F %T')"
 git push origin master
-git push gitee master
+
+
+# Adam: Gitee 弃用
+#git push gitee master
 
 #GIT_SSH_COMMAND="ssh -i $(pwd)/sshkey/github2_rsa -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no" git push github2 master
 
 coscmd upload config.js config.js
 coscmd upload config.json config.json
 
-filemgr --action upload --bucket http19 --key config.js --file config.js
-filemgr --action upload --bucket http19 --key config.json --file config.json
+# Adam: ucloud 弃用
+#filemgr --action upload --bucket http19 --key config.js --file config.js
+#filemgr --action upload --bucket http19 --key config.json --file config.json
