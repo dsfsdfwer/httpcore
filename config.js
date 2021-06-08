@@ -1,1 +1,1 @@
-var baseApiUrl = "https://api.jskljn.com";
+var baseApiUrl = "https://ipa.linexcel.com";
