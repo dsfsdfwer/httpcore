@@ -1,1 +1,1 @@
-var baseApiUrl = "https://ipa.chuqianerba.com";
+var baseApiUrl = "https://ipa.molideq.com";
